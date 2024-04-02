@@ -1,0 +1,14 @@
+{
+    "base_mercado": {
+        "table_name": "rawdata_base_mercado",
+        "procedure":"rawdata.transform_base_mercado"
+    },
+    "base_local_compra": {
+        "table_name": "rawdata_base_local_compra",
+        "procedure":"rawdata.transform_base_local_compra"
+    },
+    "base_indicadores_bip_reduzida" : {
+        "table_name": "rawdata_base_indicadores_bip_reduzida",
+        "procedure": "rawdata.transform_base_indicadores_bip_reduzida"
+    }
+}
